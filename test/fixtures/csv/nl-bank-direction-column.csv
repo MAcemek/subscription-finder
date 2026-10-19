@@ -1,0 +1,7 @@
+"Datum","Naam / Omschrijving","Rekening","Tegenrekening","Code","Af Bij","Bedrag (EUR)","Mutatiesoort","Mededelingen"
+"20260405","STREAMFLIX","NL00INGB0001234567","","IC","Af","15,49","Incasso","Streamflix maandabonnement"
+"20260305","STREAMFLIX","NL00INGB0001234567","","IC","Af","15,49","Incasso","Streamflix maandabonnement"
+"20260221","GREENMART 0571","NL00INGB0001234567","","BA","Af","31,64","Betaalautomaat","Pasvolgnr: 001"
+"20260205","STREAMFLIX","NL00INGB0001234567","","IC","Af","15,49","Incasso","Streamflix maandabonnement"
+"20260125","ACME BV","NL00INGB0001234567","NL00RABO0123456789","OV","Bij","2450,00","Overschrijving","Salaris januari"
+"20260105","STREAMFLIX","NL00INGB0001234567","","IC","Af","15,49","Incasso","Streamflix maandabonnement"

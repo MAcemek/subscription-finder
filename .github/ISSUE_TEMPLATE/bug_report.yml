@@ -1,0 +1,41 @@
+name: Bug report
+description: Something went wrong, a file was not read correctly, or a result looks wrong.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please do not paste or attach real transactions or statements. Describe the file instead,
+        or make a small file with the same layout and made-up values.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Include any message the page showed.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: file-layout
+    attributes:
+      label: File layout
+      description: The column names, the delimiter, and how dates and amounts are written.
+      placeholder: |
+        Columns: Buchungstag;Empfaenger;Verwendungszweck;Betrag
+        Dates: 05.01.26
+        Amounts: -15,49
+  - type: input
+    id: bank
+    attributes:
+      label: Bank or card
+      description: Optional. The bank or card company the file came from.
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+      placeholder: Firefox on Windows, Safari on iPhone

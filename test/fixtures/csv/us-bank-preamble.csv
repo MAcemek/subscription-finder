@@ -1,0 +1,14 @@
+Description,,Summary Amt.
+Beginning balance as of 01/01/2026,,"1,000.00"
+Total credits,,"1,450.00"
+Total debits,,"-121.96"
+Ending balance as of 04/30/2026,,"2,328.04"
+
+Date,Description,Amount,Running Bal.
+01/01/2026,Beginning balance as of 01/01/2026,,"1,000.00"
+01/05/2026,"STREAMFLIX.COM 866-555-0142 CA","-15.49","984.51"
+01/16/2026,"ACME CORP PAYROLL","1,450.00","2,434.51"
+02/05/2026,"STREAMFLIX.COM 866-555-0142 CA","-15.49","2,419.02"
+03/05/2026,"STREAMFLIX.COM 866-555-0142 CA","-15.49","2,403.53"
+03/12/2026,"ATM WITHDRAWAL 0042 MAIN ST","-60.00","2,343.53"
+04/05/2026,"STREAMFLIX.COM 866-555-0142 CA","-15.49","2,328.04"

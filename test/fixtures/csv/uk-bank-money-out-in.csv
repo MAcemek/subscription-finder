@@ -1,0 +1,7 @@
+Transaction ID,Date,Time,Type,Name,Emoji,Category,Amount,Currency,Local amount,Local currency,Notes and #tags,Address,Receipt,Description,Category split,Money Out,Money In
+tx_0001,05/01/2026,08:14:02,Card payment,Streamflix,,Entertainment,-15.49,GBP,-15.49,GBP,,,,STREAMFLIX.COM AMSTERDAM NLD,,-15.49,
+tx_0002,17/01/2026,12:01:44,Faster payment,Acme Ltd,,Income,1450.00,GBP,1450.00,GBP,,,,ACME LTD SALARY,,,1450.00
+tx_0003,05/02/2026,08:12:40,Card payment,Streamflix,,Entertainment,-15.49,GBP,-15.49,GBP,,,,STREAMFLIX.COM AMSTERDAM NLD,,-15.49,
+tx_0004,05/03/2026,08:15:11,Card payment,Streamflix,,Entertainment,-15.49,GBP,-15.49,GBP,,,,STREAMFLIX.COM AMSTERDAM NLD,,-15.49,
+tx_0005,21/03/2026,18:30:00,Card payment,Greenmart,,Groceries,-42.18,GBP,-42.18,GBP,,,,GREENMART 0571 LONDON GBR,,-42.18,
+tx_0006,05/04/2026,08:13:57,Card payment,Streamflix,,Entertainment,-15.49,GBP,-15.49,GBP,,,,STREAMFLIX.COM AMSTERDAM NLD,,-15.49,

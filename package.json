@@ -1,0 +1,43 @@
+{
+  "name": "subscription-finder",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Find subscriptions and recurring bills in your bank and credit card CSV exports, entirely in your browser.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173 --strictPort",
+    "typecheck": "tsc -p tsconfig.json",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "all": "npm run format:check && npm run lint && npm run typecheck && npm test && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MAcemek/subscription-finder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MAcemek/subscription-finder/issues"
+  },
+  "homepage": "https://macemek.github.io/subscription-finder/",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@types/node": "24.19.2",
+    "eslint": "10.13.0",
+    "globals": "17.13.0",
+    "happy-dom": "20.14.6",
+    "prettier": "3.9.10",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.71.2",
+    "vite": "8.3.2",
+    "vitest": "5.0.5"
+  }
+}

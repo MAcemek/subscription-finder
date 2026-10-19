@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Find subscriptions and recurring bills in your bank and credit card CSV files. Free, open source, and private: everything runs in your browser."
+    />
+    <title>Subscription Finder</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <script type="module" src="/src/main.ts"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap">
+        <h1>Subscription Finder</h1>
+        <p class="tagline">
+          Find the subscriptions and regular bills in your bank statements. Your files never leave
+          your device.
+        </p>
+      </div>
+    </header>
+    <main id="main" class="wrap">
+      <noscript>
+        <p class="notice">
+          Subscription Finder needs JavaScript to read your files. It runs only on your device.
+        </p>
+      </noscript>
+      <div id="app"></div>
+
+      <section class="card info" aria-labelledby="privacy-heading">
+        <h2 id="privacy-heading">Your data stays on your device</h2>
+        <p>
+          Your files are read and analyzed by this page, in your browser. Nothing is uploaded, there
+          are no accounts, no analytics and no cookies, and the page loads nothing from other
+          websites.
+        </p>
+        <p>
+          The page's security policy (Content-Security-Policy) blocks all network requests, so it
+          could not send your data anywhere even if it tried. Once the page has loaded you can
+          disconnect from the internet and it keeps working.
+        </p>
+        <p>Your checklist is only saved if you turn on "Remember my checklist on this device".</p>
+        <h3>How to check this yourself</h3>
+        <ul>
+          <li>
+            Open your browser's developer tools (F12), go to the Network tab, then add a file: no
+            new requests appear.
+          </li>
+          <li>
+            View the page source and find the Content-Security-Policy tag with
+            <code>connect-src 'none'</code>.
+          </li>
+          <li>The source code is public and short enough to read.</li>
+        </ul>
+      </section>
+
+      <section class="card info" aria-labelledby="limits-heading">
+        <h2 id="limits-heading">What this cannot see</h2>
+        <ul>
+          <li>
+            Subscriptions billed through the App Store, Google Play or PayPal often appear as one
+            combined charge, or not at all on your bank statement. Check those accounts separately.
+          </li>
+          <li>
+            Annual subscriptions need more than a year of transactions to show up. Most other
+            patterns need at least three charges.
+          </li>
+          <li>
+            Results are suggestions based on dates and amounts. Check them before you cancel
+            anything.
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          Subscription Finder is free and open source under the MIT License.
+          <a href="https://github.com/MAcemek/subscription-finder">Source code on GitHub</a>.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

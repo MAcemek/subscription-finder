@@ -1,0 +1,7 @@
+"Booking Date","Value Date","Partner Name","Partner Iban","Type","Payment Reference","Account Name","Amount (EUR)","Original Amount","Original Currency","Exchange Rate"
+"2026-01-05","2026-01-05","Streamflix","","Presentment","","Main Account","-15.49","","",""
+"2026-01-28","2026-01-28","Acme GmbH","DE00123456780000000000","Income","Salary January","Main Account","1450.00","","",""
+"2026-02-05","2026-02-05","Streamflix","","Presentment","","Main Account","-15.49","","",""
+"2026-03-05","2026-03-05","Streamflix","","Presentment","","Main Account","-15.49","","",""
+"2026-03-14","2026-03-14","Greenmart","","Presentment","","Main Account","-23.80","","",""
+"2026-04-05","2026-04-05","Streamflix","","Presentment","","Main Account","-15.49","","",""
